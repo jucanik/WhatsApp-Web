@@ -11,7 +11,7 @@ const Connection = async () => {
         await mongoose.connect(URL, {useUnifiedTopology:true})
         console.log("Database Connected Successfully");
     } catch(error) {
-        console.log("Error in connecting", error);
+        console.log("Error in connecting", error.message);
     }
 }
 export default Connection;
