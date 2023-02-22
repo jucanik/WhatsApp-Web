@@ -21,7 +21,7 @@ const Search = styled(Box)`
     width: 80%;
 `
 const InputField = styled(InputBase)`
-   margin-left: 40%;
+   margin-left: 25px;
 `
 const ChatFooter = () => {
     return (
